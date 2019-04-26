@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  padding-bottom: 5rem;
+}
+
+header {
+  background: url(../images/background-image.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+   font-size: 2rem;
+   margin: auto;
+ }
+
+h1 {
+  font-weight: bold;
+}
+
+ main {
+   max-width: 900px;
+   margin: auto;
+ }
+
+ @media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+      display: flex;
+    }
+  }
+
+ .project-description {
+   padding-left: 0;
+ }
+
+ .project img {
+   width: 100%;
+ }
+
+ .slogan {
+    font-weight: lighter;
+    font-size: 1.6rem;
+  }

@@ -1,42 +1,92 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Portfolio | Jessica Bradford</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
-    <header>
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Jessica Bradford</h1>
       <p class="slogan">Product Designer in the Bay area</p>
-      <main>
-        <div class="project featured-project">
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-         <h2>Featured Project Name</h2>
-         <p>Project description text</p>
+      <main lass="mdl-layout__content mdl-grid">
+
+        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+           <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+              <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
+            </div>
+            <div class="mdl-cell mdl-cell--7-col">
+              <h2 class="mdl-card__title-text">Featured Project Name</h2>
+              <p class="project-description mdl-card__supporting-text">Project description text</p>
+            </div>
+          </div>
+
+          <div class="mdl-grid">
+            <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+              <div>
+                <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+              </div>
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Project Name</h2>
+              </div>
+              <div class="mdl-card__supporting-text">Project description text</div>
+            </div>
+
+            <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+              <div>
+                <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
+              </div>
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Project Name</h2>
+              </div>
+              <div class="mdl-card__supporting-text">Project description text</div>
+            </div>
+
+            <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+              <div>
+                <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
+              </div>
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Project Name</h2>
+              </div>
+              <div class="mdl-card__supporting-text">Project description text</div>
+            </div>
         </div>
-        <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
       </main>
-      <footer>
-        <ul>
-          <li> <a href="https://www.linkedin.com/in/jessbradford/">LinkedIn</a> </li>
-          <li> <a href="https://dribbble.com/jbradford2220">Dribble</a> </li>
-          <li> <a href="https://github.com/jessbradford">GitHub</a> </li>
-          <li> <a href="https://twitter.com/jbradford1113">Twitter</a> </li>
-          <li> <a href="mailto:bradfordjess13@gmail.com">Email</a> </li>
+      <footer class="mdl-mini-footer">
+        <ul class="mdl-mini-footer__link-list">
+          <li>
+            <a href="https://www.linkedin.com/in/jessbradford/">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jessbradford">
+              <i class="fab fa-github-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/jbradford2220">
+              <i class="fab fa-dribbble-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/jbradford1113">
+              <i class="fab fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:bradfordjess13@gmail.com">
+              <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </footer>
     </header>

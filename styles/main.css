@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   padding-bottom: 5rem;
 }
 
@@ -49,4 +49,8 @@ h1 {
  .slogan {
     font-weight: lighter;
     font-size: 1.6rem;
+  }
+
+  .title {
+    margin: auto;
   }
